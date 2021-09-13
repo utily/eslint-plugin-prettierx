@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "prettier-linter-helpers": "~1.0.0",
-    "prettierx": "~0.18.0"
+    "prettierx": "github:robinnedergard/prettierx#newline-before-clause-sync"
   },
   "devDependencies": {
     "@jsbits/deep-clone": "~1.1.1",
