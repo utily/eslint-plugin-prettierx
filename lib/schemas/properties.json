@@ -40,6 +40,23 @@
     "description": "Print spaces between parens in CSS, WordPress style. Status: experimental, with limited testing.",
     "type": "boolean"
   },
+  "embeddedLanguageFormatting": {
+    "description": "Control how Prettier formats quoted code embedded in the file.",
+    "oneOf": [
+      {
+        "enum": [
+          "auto"
+        ],
+        "description": "Format embedded code if Prettier can automatically identify it."
+      },
+      {
+        "enum": [
+          "off"
+        ],
+        "description": "Never automatically format embedded code."
+      }
+    ]
+  },
   "endOfLine": {
     "description": "Which end of line characters to apply.",
     "oneOf": [
@@ -188,6 +205,18 @@
       },
       {
         "enum": [
+          "espree"
+        ],
+        "description": "JavaScript"
+      },
+      {
+        "enum": [
+          "meriyah"
+        ],
+        "description": "JavaScript"
+      },
+      {
+        "enum": [
           "css"
         ],
         "description": "CSS"
@@ -256,7 +285,7 @@
         "enum": [
           "glimmer"
         ],
-        "description": "Handlebars"
+        "description": "Ember / Handlebars"
       },
       {
         "enum": [
