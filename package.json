@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "prettier-linter-helpers": "~1.0.0",
-    "prettierx": "github:utily/prettierx#utily-20221229"
+    "prettierx": "github:utily/prettierx#utily-20230626"
   },
   "devDependencies": {
     "@jsbits/deep-clone": "~1.1.1",
